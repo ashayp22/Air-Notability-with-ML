@@ -16,6 +16,7 @@
 4. Press D when you are done
 5. The letter you drew will appear on the screen
 6. Rinse and repeat
+7. If you want to change the highlighter color, find the HSV of the chosen highlighter and update the mask values in test.py
 
 ## How it works:##
 1. First, the computer tracks your orange highlighter based on its colors and draws its path
