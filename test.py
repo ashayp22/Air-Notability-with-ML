@@ -17,20 +17,10 @@ letter_model.load_weights("models/letter.h5")
 
 letter_model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy']) #compile the model with the correct optimizer - adam
 
-yaml_file = open('models/number.yaml', 'r')
-number_model_yaml = yaml_file.read()
-yaml_file.close()
-number_model = model_from_yaml(number_model_yaml) #load the architecture
-# load weights into new models
-number_model.load_weights("models/number.h5")
-
-number_model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy']) #compile the model with the correct optimizer - adam
-
-
 word = ""
 
 def getLetter(w, h, points):
-    global letter_model, number_model
+    global letter_model
     # now we want to take all the points, but it on a blank image, and run it through our neural network
 
     sample = np.zeros([w, h, 3], dtype=np.uint8)  # gets a blank image
