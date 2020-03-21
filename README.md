@@ -10,16 +10,16 @@
 
 ## How to use: ##
 
-* Take an orange highlighter, and run test.py
-* Draw a letter in front of you
-* Press E to erase, Press
-* Press D when you are done
-* The letter you drew will appear on the screen
-* Rinse and repeat
+1. Take an orange highlighter, and run test.py
+2. Draw a letter in front of you
+3. Press E to erase, Press
+4. Press D when you are done
+5. The letter you drew will appear on the screen
+6. Rinse and repeat
 
 ## How it works:##
-* First, the computer tracks your orange highlighter based on its colors and draws its path
-* Next, the computer crops out the path of the highlighter, does some image processing, and
+1. First, the computer tracks your orange highlighter based on its colors and draws its path
+2. Next, the computer crops out the path of the highlighter, does some image processing, and
 feeds it into a convolutional neural network
-* The CNN spits out a letter, A-Z
-* The CNN is trained using the EMNIST dataset
+3. The CNN spits out a letter, A-Z
+4. The CNN is trained using the EMNIST dataset
