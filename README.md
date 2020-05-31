@@ -18,7 +18,7 @@
 6. Rinse and repeat
 7. If you want to change the highlighter color, find the HSV of the chosen highlighter and update the mask values in test.py
 
-## How it works:##
+## How it works: ##
 1. First, the computer tracks your orange highlighter based on its colors and draws its path
 2. Next, the computer crops out the path of the highlighter, does some image processing, and
 feeds it into a convolutional neural network
