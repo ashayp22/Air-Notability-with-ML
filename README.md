@@ -1,6 +1,6 @@
 # Air-Notability-with-ML
 
-A project created for Conant Hack Club.
+A Deep Learning/Image Processing project created for Conant Hack Club.
 
 ## Prerequisites ##
 
