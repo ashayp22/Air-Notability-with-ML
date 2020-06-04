@@ -1,12 +1,21 @@
 # Air-Notability-with-ML
 
-## when you can draw in the air and the computer understands ##
+A project created for Conant Hack Club.
+
+## Prerequisites ##
 
 * Python 3.6
-* numpy
-* Keras 2.1.5
-* cv2
-* tensorflow 1.8
+```
+numpy
+Keras 2.1.5
+cv2 (OpenCV)
+tensorflow 1.8
+```
+
+## Download ##
+
+Download a zipped version of the project and locate the directory. Then, using an IDE or command line, run the test.py file. 
+A window should now pop up with the program running on it.
 
 ## How to use: ##
 
