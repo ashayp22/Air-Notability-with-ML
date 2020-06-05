@@ -28,8 +28,8 @@ A window should now pop up with the program running on it.
 7. If you want to change the highlighter color, find the HSV of the chosen highlighter and update the mask values in test.py
 
 ## How it works: ##
-1. First, the computer tracks your orange highlighter based on its colors and draws its path
-2. Next, the computer crops out the path of the highlighter, does some image processing, and
+1. First, the computer tracks your orange highlighter based on its colors and draws its path. It does this by using contours and masks.
+2. Next, the computer crops out the path of the highlighter using contours, resizes and reforats the colors, and
 feeds it into a convolutional neural network
 3. The CNN spits out a letter, A-Z
-4. The CNN is trained using the EMNIST dataset
+4. Prior to all of this, the CNN was trained using the EMNIST dataset
