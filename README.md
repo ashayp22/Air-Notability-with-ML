@@ -29,7 +29,7 @@ A window should now pop up with the program running on it.
 
 ## How it works: ##
 1. First, the computer tracks your orange highlighter based on its colors and draws its path. It does this by using contours and masks.
-2. Next, the computer crops out the path of the highlighter using contours, resizes and reforats the colors, and
+2. Next, the computer crops out the path of the highlighter using contours, resizes and reformats the colors, and
 feeds it into a convolutional neural network
 3. The CNN spits out a letter, A-Z
 4. Prior to all of this, the CNN was trained using the EMNIST dataset
