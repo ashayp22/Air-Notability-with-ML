@@ -2,6 +2,8 @@
 
 A Deep Learning/Image Processing project created for Conant Hack Club.
 
+[Check out a Medium article explaining the process!](https://ai.plainenglish.io/using-ai-to-draw-in-the-air-bd1505d1ea99)
+
 ## Prerequisites ##
 
 * Python 3.6
